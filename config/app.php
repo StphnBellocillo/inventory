@@ -183,6 +183,8 @@ return [
         App\Providers\OrderServiceProvider::class,
         App\Providers\CompanyServiceProvider::class,
         App\Providers\ProfileServiceProvider::class,
+        App\Providers\UserServiceProvider::class,
+        App\Providers\RegistrationServiceProvider::class,
     ],
 
     /*

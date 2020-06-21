@@ -18,6 +18,14 @@ Route::get('/', function () {
 
 });
 
+// Registration
+
+Route::post('/registration', 'RegistrationController@create');
+Route::get('/registration/all', 'RegistrationController@getAll');
+Route::get('/registration/{id}', 'RegistrationController@findId');
+Route::put('/registration/update/{id}', 'RegistrationController@update');
+Route::get('/registration/delete/{id}', 'RegistrationController@delete');
+
 // Brands
 
 Route::post('/brands', 'BrandController@create');
