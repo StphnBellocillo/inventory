@@ -41,3 +41,52 @@ Route::get('/group/all', 'GroupController@getAll');
 Route::get('/group/{id}', 'GroupController@findId');
 Route::put('/group/update/{id}', 'GroupController@update');
 Route::get('/group/delete/{id}', 'GroupController@delete');
+
+
+// Attribute
+
+Route::post('/attribute', 'AttributeController@create');
+Route::get('/attribute/all', 'AttributeController@getAll');
+Route::get('/attribute/{id}', 'AttributeController@findId');
+Route::put('/attribute/update/{id}', 'AttributeController@update');
+Route::get('/attribute/delete/{id}', 'AttributeController@delete');
+
+// Attribute Value
+
+Route::post('/attributevalue', 'AttributeValueController@create');
+Route::get('/attributevalue/all', 'AttributeValueController@getAll');
+Route::get('/attributevalue/{id}', 'AttributeValueController@findId');
+Route::put('/attributevalue/update/{id}', 'AttributeValueController@update');
+Route::get('/attributevalue/delete/{id}', 'AttributeValueController@delete');
+
+// Product
+
+Route::post('/product', 'ProductController@create');
+Route::get('/product/all', 'ProductController@getAll');
+Route::get('/product/{id}', 'ProductController@findId');
+Route::put('/product/update/{id}', 'ProductController@update');
+Route::get('/product/delete/{id}', 'ProductController@delete');
+
+// Order    
+
+Route::post('/order', 'OrderController@create');
+Route::get('/order/all', 'OrderController@getAll');
+Route::get('/order/{id}', 'OrderController@findId');
+Route::put('/order/update/{id}', 'OrderController@update');
+Route::get('/order/delete/{id}', 'OrderController@delete');
+
+// Company
+
+Route::post('/company', 'CompanyController@create');
+Route::get('/company/all', 'CompanyController@getAll');
+Route::get('/company/{id}', 'CompanyController@findId');
+Route::put('/company/update/{id}', 'CompanyController@update');
+Route::get('/company/delete/{id}', 'CompanyController@delete');
+
+// Profile
+
+Route::post('/profile', 'ProfileController@create');
+Route::get('/profile/all', 'ProfileController@getAll');
+Route::get('/profile/{id}', 'ProfileController@findId');
+Route::put('/profile/update/{id}', 'ProfileController@update');
+Route::get('/profile/delete/{id}', 'ProfileController@delete');

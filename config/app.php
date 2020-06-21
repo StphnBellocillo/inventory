@@ -177,7 +177,12 @@ return [
         App\Providers\BrandServiceProvider::class,
         App\Providers\CategoryServiceProvider::class,
         App\Providers\GroupServiceProvider::class,
-
+        App\Providers\AttributeServiceProvider::class,
+        App\Providers\AttributeValueServiceProvider::class,
+        App\Providers\ProductServiceProvider::class,
+        App\Providers\OrderServiceProvider::class,
+        App\Providers\CompanyServiceProvider::class,
+        App\Providers\ProfileServiceProvider::class,
     ],
 
     /*
